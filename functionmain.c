@@ -6,7 +6,8 @@
  */
 #include <xc.h>
 __CONFIG(FOSC_HS & WDTE_OFF & PWRTE_OFF & BOREN_ON & LVP_ON & CPD_OFF & WRT_OFF & CP_OFF);
-#define _XTAL_FREQ 20000000 //Specify the XTAL crystall FREQ
+#define _XTAL_FREQ 20000000 //Specify the XTAL crystall FREQ(connect an External crystal to PIN 13 and 14 of PIC16F877a)
+
 sblink(int get) //Function definition with "get" as parameter  
 
 {
