@@ -28,7 +28,8 @@
 #include <xc.h>
 
 
-    #define _XTAL_FREQ 20000000 //Specify the XTAL crystall FREQ
+    #define _XTAL_FREQ 20000000 //Specify the XTAL crystall FREQ(connect an External crystal to PIN 13 and 14 of PIC16F877a)
+
 
 
 /*******Sequence blink*******/
